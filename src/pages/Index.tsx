@@ -76,7 +76,7 @@ export default function Index() {
         <div className="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              <MapPin className="h-4 w-4 text-primary-foreground" />
+              {/* <MapPin className="h-4 w-4 text-primary-foreground" /> */}
             </div>
             <span className="text-base font-bold tracking-tight text-foreground">DataExtraction</span>
           </div>
@@ -315,7 +315,7 @@ export default function Index() {
       {/* ── Newsletter ── */}
       <section id="contact" className="border-b border-border bg-muted/40">
         <div className="container mx-auto max-w-xl px-4 py-20 text-center md:px-8">
-          <Mail className="mx-auto mb-5 h-12 w-12 text-accent" />
+          {/* <Mail className="mx-auto mb-5 h-12 w-12 text-accent" /> */}
           <h2 className="text-3xl font-bold tracking-tight">Subscribe to our newsletter</h2>
           <p className="mt-3 text-sm text-muted-foreground">Stay updated with the latest geospatial data and platform updates</p>
           <form className="mt-8 flex gap-3" onSubmit={(e) => e.preventDefault()}>
