@@ -75,9 +75,9 @@ export default function Index() {
       <header className="sticky top-0 z-50 border-b border-border bg-card/90 backdrop-blur-md">
         <div className="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              {/* <MapPin className="h-4 w-4 text-primary-foreground" /> */}
-            </div>
+            {/* <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
+              <MapPin className="h-4 w-4 text-primary-foreground" />
+            </div> */}
             <span className="text-base font-bold tracking-tight text-foreground">DataExtraction</span>
           </div>
           <nav className="hidden items-center gap-7 text-sm font-medium text-muted-foreground md:flex">
@@ -336,9 +336,9 @@ export default function Index() {
             {/* Brand */}
             <div>
               <div className="mb-5 flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
+                {/* <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
                   <MapPin className="h-4 w-4 text-accent-foreground" />
-                </div>
+                </div> */}
                 <span className="font-bold text-primary-foreground">DataExtraction</span>
               </div>
               <p className="text-xs leading-relaxed text-primary-foreground/60">
