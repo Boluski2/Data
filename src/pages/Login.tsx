@@ -36,7 +36,7 @@ export default function Login() {
         <CardHeader className="text-center pb-2">
           <Link to="/" className="inline-flex items-center justify-center gap-2 mb-4">
             <MapPin className="h-6 w-6 text-accent" />
-            <span className="text-lg font-semibold text-foreground">GeoExtract</span>
+            <span className="text-lg font-semibold text-foreground">DataExtraction</span>
           </Link>
           <CardTitle className="text-xl">Welcome back</CardTitle>
           <CardDescription>Sign in to access your projects</CardDescription>
